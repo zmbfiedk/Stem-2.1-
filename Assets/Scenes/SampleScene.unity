@@ -371,9 +371,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c392933aaf2154db3501cfd867e4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 2, y: 1, z: 0}
-  mindist: {x: -5, y: -5}
-  maxdist: {x: 5, y: 5}
+  velocity: {x: 1, y: 1, z: 0}
+  Minscreen: {x: 0, y: 0}
+  Maxscreen: {x: 0, y: 0}
+  acceleration: {x: 0, y: -9.8, z: 0}
 --- !u!212 &655570904
 SpriteRenderer:
   m_ObjectHideFlags: 0
